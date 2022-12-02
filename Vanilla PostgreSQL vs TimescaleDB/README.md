@@ -1,6 +1,6 @@
 ## PostgreSQL vs TimescaleDB 
 
-### run query script on timescaledb - 1000 queries
+### run query script on timescaledb - 1000 queries - 1 worker
 
 1. Copy timescaledb .sql queries into compute engine 
 
