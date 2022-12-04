@@ -1,13 +1,13 @@
 # TimescaleDB TSBS Benchmarking
 
+### Data Generation
+
 -- Navigate to the tsbs bin directory 
 
 ```
 cd /home/koumudi/tmp/go/bin
 ```
-
--- Generate data based on the parameters 
-
+-- Run ./tsbs_generate_data based on parameters desired 
 ```
 ./tsbs_generate_data \
 > --use-case="iot" --seed=123 --scale=700 \
@@ -16,7 +16,7 @@ cd /home/koumudi/tmp/go/bin
 > --log-interval="60s" --format="timescaledb" >/home/alaaalmutawa/tmp/timescaledb-data-sf7 \
 ```
 
--- Verify the size (optional)
+-- Verify the size of generated data (optional)
 
 ```
 ls -lh
@@ -28,11 +28,33 @@ ls -lh
 cat timescaledb-data-sf7 | wc -l
 ```
 
--- Edit config.yaml file 
+### Load Data into TimescaleDB
 
-db name 
-data location
-workers (edit postgres.conf to enable having higher number of connections, for 70 workers, connections increased to 150, for 30 workers connections increased to 100)
+-- Edit config.yaml file based on parameters desired 
+
+- db name 
+- data location
+- workers 
+
+-- Load into DB 
+
+```
+sudo ./tsbs_load load timescaledb 
+--config=./config.yaml > /home/alaaalmutawa/tmp/log/load/timescaledb_load_data_sf7.log
+```
+
+### Generate Queries 
+
+-- Run ./tsbs_generate_queries with desired parameters 
+```
+./tsbs_generate_queries --use-case=""iot"" --seed=123 --scale=100 \
+    --timestamp-start=""2022-01-01T00:00:00Z"" \
+    --timestamp-end=""2022-01-08T00:00:01Z"" \
+    --queries=1000 --query-type=""high-load"" --format=""timescaledb"" \
+    > /home/alaaalmutawa/tmp/timescaledb-high-load"
+```
+
+### Run tsbs generated queries 
 
 --- Adjust the # of connections postgres can create to increase number of loading workers ---
 
@@ -52,13 +74,6 @@ psql -U postgres -c 'SHOW config_file'
 
 - for scale: 300, loading workers: 30, # of connections in postgres.conf: increased to 100
 - for scale: 700, loading workers: 70, # of connections in postgres.conf: increased to 150
-
--- Load into DB 
-
-```
-sudo ./tsbs_load load timescaledb 
---config=./config.yaml > /home/alaaalmutawa/tmp/log/load/timescaledb_load_data_sf7.log
-```
 
 -- Get the container ip address 
 
