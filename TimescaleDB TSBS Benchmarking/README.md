@@ -6,11 +6,11 @@
 
 -- Generate data based on the parameters 
 
-`./tsbs_generate_data ``\``
-> --use-case="iot" --seed=123 --scale=700 ``\``
-> --timestamp-start="2022-01-01T00:00:00Z" ``\``
-> --timestamp-end="2022-01-08T00:00:00Z" ``\``
-> --log-interval="60s" --format="timescaledb" >/home/alaaalmutawa/tmp/timescaledb-data-sf7 ``\```
+`./tsbs_generate_data \`
+`> --use-case="iot" --seed=123 --scale=700 \`
+`> --timestamp-start="2022-01-01T00:00:00Z" \`
+`> --timestamp-end="2022-01-08T00:00:00Z" \`
+`> --log-interval="60s" --format="timescaledb" >/home/alaaalmutawa/tmp/timescaledb-data-sf7 \`
 
 -- Verify the size (optional)
 
