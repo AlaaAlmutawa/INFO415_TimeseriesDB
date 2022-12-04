@@ -129,26 +129,26 @@ sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}
 -- Run queries 
 
 ``` 
-stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7"  
---hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" 
---file /home/alaaalmutawa/tmp/timescaledb-high-load &> /home/alaaalmutawa/tmp/log/queries/sf7/high-load.log
+stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7"  \
+--hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" \
+--file /home/alaaalmutawa/tmp/timescaledb-high-load &> /home/alaaalmutawa/tmp/log/queries/sf7/high-load.log \
 ```
 
 ``` 
-stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7" 
---hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" 
---file /home/alaaalmutawa/tmp/timescaledb-last-loc &> /home/alaaalmutawa/tmp/log/queries/sf7/last-loc.log
+stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7" \
+--hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" \
+--file /home/alaaalmutawa/tmp/timescaledb-last-loc &> /home/alaaalmutawa/tmp/log/queries/sf7/last-loc.log \
 ```
 
 ``` 
-stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7" 
---hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" 
---file /home/alaaalmutawa/tmp/timescaledb-avg-vs-projected-fuel-consumption 
-&> /home/alaaalmutawa/tmp/log/queries/sf7/avg-vs-projected-fuel-consumption.log
+stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7" \
+--hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" \
+--file /home/alaaalmutawa/tmp/timescaledb-avg-vs-projected-fuel-consumption \
+&> /home/alaaalmutawa/tmp/log/queries/sf7/avg-vs-projected-fuel-consumption.log \
 ```
 
 ```
-stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7" 
---hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" 
---file /home/alaaalmutawa/tmp/timescaledb-daily-activity &> /home/alaaalmutawa/tmp/log/queries/sf7/daily-activity.log
+stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7" \
+--hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" \
+--file /home/alaaalmutawa/tmp/timescaledb-daily-activity &> /home/alaaalmutawa/tmp/log/queries/sf7/daily-activity.log \
 ```
