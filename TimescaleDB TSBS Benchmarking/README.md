@@ -46,14 +46,59 @@ sudo ./tsbs_load load timescaledb
 ### Generate Queries 
 
 -- Run ./tsbs_generate_queries with desired parameters 
-```
-./tsbs_generate_queries --use-case=""iot"" --seed=123 --scale=100 \
+
+- High Load
+    ```
+    ./tsbs_generate_queries --use-case=""iot"" --seed=123 --scale=100 \
     --timestamp-start=""2022-01-01T00:00:00Z"" \
     --timestamp-end=""2022-01-08T00:00:01Z"" \
     --queries=1000 --query-type=""high-load"" --format=""timescaledb"" \
     > /home/alaaalmutawa/tmp/timescaledb-high-load"
-```
+    ```
+- Last Location 
 
+    ```
+    ./tsbs_generate_queries --use-case="iot" --seed=123 --scale=100 \
+    --timestamp-start="2022-01-01T00:00:00Z" \
+    --timestamp-end="2022-01-08T00:00:01Z" \
+    --queries=1000 --query-type="last-loc" --format="timescaledb" \
+    > /home/alaaalmutawa/tmp/timescaledb-last-loc
+    ```
+- Average vs Projected Fuel Consumption
+    ```
+    ./tsbs_generate_queries --use-case="iot" --seed=123 --scale=100 \
+    --timestamp-start="2022-01-01T00:00:00Z" \
+    --timestamp-end="2022-01-08T00:00:01Z" \
+    --queries=1000 --query-type="avg-vs-projected-fuel-consumption" --format="timescaledb" \
+    > /home/alaaalmutawa/tmp/timescaledb-avg-vs-projected-fuel-consumption
+    ```
+- Average Load    
+    ```
+    ./tsbs_generate_queries --use-case="iot" --seed=123 --scale=100 \
+    --timestamp-start="2022-01-01T00:00:00Z" \
+    --timestamp-end="2022-01-08T00:00:01Z" \
+    --queries=1000 --query-type="avg-load" --format="timescaledb" \
+    > /home/alaaalmutawa/tmp/timescaledb-avg-load
+    ```
+- Daily Activity 
+    
+    ```
+    ./tsbs_generate_queries --use-case="iot" --seed=123 --scale=100 \
+    --timestamp-start="2022-01-01T00:00:00Z" \
+    --timestamp-end="2022-01-08T00:00:01Z" \
+    --queries=1000 --query-type="daily-activity" --format="timescaledb" \
+    > /home/alaaalmutawa/tmp/timescaledb-daily-activity 
+    ```
+- Breakdown Frequency 
+    
+    ```
+    ./tsbs_generate_queries --use-case="iot" --seed=123 --scale=100 \
+    --timestamp-start="2022-01-01T00:00:00Z" \
+    --timestamp-end="2022-01-08T00:00:01Z" \
+    --queries=1000 --query-type="breakdown-frequency" --format="timescaledb" \
+    > /home/alaaalmutawa/tmp/timescaledb-breakdown-frequency
+    ```
+    
 ### Run tsbs generated queries 
 
 --- Adjust the # of connections postgres can create to increase number of loading workers ---
