@@ -1,7 +1,7 @@
 # INFO415_TimeseriesDB
 ULB Advanced Database Course Project 
 
-A. TimescaleDB vs QuestDB 
+A. TimescaleDB vs QuestDB (TSBS Benchmarking)
 
 1. Run different scale factors: 
 
@@ -10,7 +10,7 @@ A. TimescaleDB vs QuestDB
   - Run 3rd SF: TimescaleDB: Running, QuestDB: Done
   - Run 4th SF: TimescaleDB: Running, QuestDB: Done
 
-B. Timeseries DB vs Relational DB  
+B. Timeseries DB vs Relational DB 
 
   1. Vanilla PostgreSQL vs TimescaleDB (Extension on top of PostgreSQL) —> (Done)
 
