@@ -1,4 +1,4 @@
-# INFO415_TimeseriesDB
+# INFO415: Timeseries DBs
 ULB Advanced Database Course Project 
 
 A. TimescaleDB vs QuestDB (TSBS Benchmarking)
