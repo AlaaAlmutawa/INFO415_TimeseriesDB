@@ -152,3 +152,9 @@ stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark
 --hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" \
 --file /home/alaaalmutawa/tmp/timescaledb-daily-activity &> /home/alaaalmutawa/tmp/log/queries/sf7/daily-activity.log \
 ```
+
+```
+stdbuf -oL sudo ./tsbs_run_queries_timescaledb --workers=15 --db-name="benchmark7" \
+--hosts=172.17.0.2 --postgres="host=172.17.0.2 port=5432  user=postgres password=password sslmode=disable" \
+--file /home/alaaalmutawa/tmp/timescaledb-breakdown-frequency &> /home/alaaalmutawa/tmp/log/queries/sf7/breakdown-frequency.log
+```
