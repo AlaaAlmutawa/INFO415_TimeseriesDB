@@ -1,0 +1,8 @@
+Using config file: ./config.yaml
+time,per. metric/s,metric total,overall metric/s,per. row/s,row total,overall row/s
+1669426578,365002.96,3.650224E+06,365002.96,72996.11,7.300000E+05,72996.11
+1669426588,405109.25,7.701144E+06,385055.15,81003.45,1.540000E+06,76999.59
+
+Summary:
+loaded 9069842 metrics in 23.060sec with 10 workers (mean rate 393321.11 metrics/sec)
+loaded 1813950 rows in 23.060sec with 10 workers (mean rate 78663.42 rows/sec)

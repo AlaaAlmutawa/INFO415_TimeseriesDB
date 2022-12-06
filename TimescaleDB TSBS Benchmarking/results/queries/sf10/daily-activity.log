@@ -1,0 +1,7 @@
+panic: unexpected EOF
+
+goroutine 34 [running]:
+github.com/timescale/tsbs/pkg/query.(*BenchmarkRunner).processorHandler(0xc0001140c0, 0x0?, 0x0?, 0x0?, {0x95d2c8, 0xc000176280}, 0x0?)
+	/home/koumudi/tmp/go/src/github.com/timescale/tsbs/pkg/query/benchmarker.go:227 +0x1d6
+created by github.com/timescale/tsbs/pkg/query.(*BenchmarkRunner).Run
+	/home/koumudi/tmp/go/src/github.com/timescale/tsbs/pkg/query/benchmarker.go:160 +0x1e7

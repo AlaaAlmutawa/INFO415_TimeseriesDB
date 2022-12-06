@@ -1,0 +1,76 @@
+After 100 queries with 15 workers:
+Interval query rate: 0.90 queries/sec	Overall query rate: 0.90 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9290.24ms, med: 18219.01ms, mean: 16471.83ms, max: 19416.06ms, stddev:  3703.85ms, sum: 1647.2sec, count: 100
+all queries                                                :
+min:  9290.24ms, med: 18219.01ms, mean: 16471.83ms, max: 19416.06ms, stddev:  3703.85ms, sum: 1647.2sec, count: 100
+
+After 200 queries with 15 workers:
+Interval query rate: 0.74 queries/sec	Overall query rate: 0.81 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9290.24ms, med: 18295.81ms, mean: 18262.17ms, max: 37298.18ms, stddev:  6262.82ms, sum: 3652.4sec, count: 200
+all queries                                                :
+min:  9290.24ms, med: 18295.81ms, mean: 18262.17ms, max: 37298.18ms, stddev:  6262.82ms, sum: 3652.4sec, count: 200
+
+After 300 queries with 15 workers:
+Interval query rate: 0.91 queries/sec	Overall query rate: 0.84 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9179.65ms, med: 18288.64ms, mean: 17562.26ms, max: 37298.18ms, stddev:  5658.05ms, sum: 5268.7sec, count: 300
+all queries                                                :
+min:  9179.65ms, med: 18288.64ms, mean: 17562.26ms, max: 37298.18ms, stddev:  5658.05ms, sum: 5268.7sec, count: 300
+
+After 400 queries with 15 workers:
+Interval query rate: 0.91 queries/sec	Overall query rate: 0.86 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9179.65ms, med: 18264.06ms, mean: 17251.96ms, max: 37298.18ms, stddev:  5264.19ms, sum: 6900.8sec, count: 400
+all queries                                                :
+min:  9179.65ms, med: 18264.06ms, mean: 17251.96ms, max: 37298.18ms, stddev:  5264.19ms, sum: 6900.8sec, count: 400
+
+After 500 queries with 15 workers:
+Interval query rate: 0.92 queries/sec	Overall query rate: 0.87 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9179.65ms, med: 18247.68ms, mean: 17024.75ms, max: 37298.18ms, stddev:  5027.06ms, sum: 8512.4sec, count: 500
+all queries                                                :
+min:  9179.65ms, med: 18247.68ms, mean: 17024.75ms, max: 37298.18ms, stddev:  5027.06ms, sum: 8512.4sec, count: 500
+
+After 600 queries with 15 workers:
+Interval query rate: 0.91 queries/sec	Overall query rate: 0.88 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9056.77ms, med: 18249.73ms, mean: 16882.68ms, max: 37298.18ms, stddev:  4857.94ms, sum: 10129.6sec, count: 600
+all queries                                                :
+min:  9056.77ms, med: 18249.73ms, mean: 16882.68ms, max: 37298.18ms, stddev:  4857.94ms, sum: 10129.6sec, count: 600
+
+After 700 queries with 15 workers:
+Interval query rate: 0.91 queries/sec	Overall query rate: 0.88 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9056.77ms, med: 18253.82ms, mean: 16810.23ms, max: 37298.18ms, stddev:  4716.17ms, sum: 11767.2sec, count: 700
+all queries                                                :
+min:  9056.77ms, med: 18253.82ms, mean: 16810.23ms, max: 37298.18ms, stddev:  4716.17ms, sum: 11767.2sec, count: 700
+
+After 800 queries with 15 workers:
+Interval query rate: 0.92 queries/sec	Overall query rate: 0.88 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9056.77ms, med: 18252.80ms, mean: 16728.58ms, max: 37298.18ms, stddev:  4618.03ms, sum: 13382.9sec, count: 800
+all queries                                                :
+min:  9056.77ms, med: 18252.80ms, mean: 16728.58ms, max: 37298.18ms, stddev:  4618.03ms, sum: 13382.9sec, count: 800
+
+After 900 queries with 15 workers:
+Interval query rate: 0.92 queries/sec	Overall query rate: 0.89 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  9056.77ms, med: 18244.61ms, mean: 16660.36ms, max: 37298.18ms, stddev:  4538.13ms, sum: 14994.3sec, count: 900
+all queries                                                :
+min:  9056.77ms, med: 18244.61ms, mean: 16660.36ms, max: 37298.18ms, stddev:  4538.13ms, sum: 14994.3sec, count: 900
+
+After 1000 queries with 15 workers:
+Interval query rate: 1.03 queries/sec	Overall query rate: 0.90 queries/sec
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  3858.94ms, med: 18241.53ms, mean: 16599.81ms, max: 37298.18ms, stddev:  4499.59ms, sum: 16599.8sec, count: 1000
+all queries                                                :
+min:  3858.94ms, med: 18241.53ms, mean: 16599.81ms, max: 37298.18ms, stddev:  4499.59ms, sum: 16599.8sec, count: 1000
+
+Run complete after 1000 queries with 15 workers (Overall query rate 0.90 queries/sec):
+TimescaleDB average vs projected fuel consumption per fleet:
+min:  3858.94ms, med: 18241.53ms, mean: 16599.81ms, max: 37298.18ms, stddev:  4499.59ms, sum: 16599.8sec, count: 1000
+all queries                                                :
+min:  3858.94ms, med: 18241.53ms, mean: 16599.81ms, max: 37298.18ms, stddev:  4499.59ms, sum: 16599.8sec, count: 1000
+wall clock time: 1109.290902sec

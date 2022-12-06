@@ -1,0 +1,76 @@
+After 100 queries with 15 workers:
+Interval query rate: 69.40 queries/sec	Overall query rate: 69.40 queries/sec
+TimescaleDB trucks with high load:
+min:    60.16ms, med:   138.00ms, mean:   203.90ms, max:  670.88ms, stddev:   166.89ms, sum:  20.4sec, count: 100
+all queries                      :
+min:    60.16ms, med:   138.00ms, mean:   203.90ms, max:  670.88ms, stddev:   166.89ms, sum:  20.4sec, count: 100
+
+After 200 queries with 15 workers:
+Interval query rate: 122.81 queries/sec	Overall query rate: 88.69 queries/sec
+TimescaleDB trucks with high load:
+min:    52.71ms, med:   130.96ms, mean:   164.21ms, max:  670.88ms, stddev:   126.29ms, sum:  32.8sec, count: 200
+all queries                      :
+min:    52.71ms, med:   130.96ms, mean:   164.21ms, max:  670.88ms, stddev:   126.29ms, sum:  32.8sec, count: 200
+
+After 300 queries with 15 workers:
+Interval query rate: 122.72 queries/sec	Overall query rate: 97.72 queries/sec
+TimescaleDB trucks with high load:
+min:    52.71ms, med:   129.19ms, mean:   150.67ms, max:  670.88ms, stddev:   105.96ms, sum:  45.2sec, count: 300
+all queries                      :
+min:    52.71ms, med:   129.19ms, mean:   150.67ms, max:  670.88ms, stddev:   105.96ms, sum:  45.2sec, count: 300
+
+After 400 queries with 15 workers:
+Interval query rate: 115.72 queries/sec	Overall query rate: 101.68 queries/sec
+TimescaleDB trucks with high load:
+min:    52.71ms, med:   130.63ms, mean:   145.22ms, max:  670.88ms, stddev:    93.17ms, sum:  58.1sec, count: 400
+all queries                      :
+min:    52.71ms, med:   130.63ms, mean:   145.22ms, max:  670.88ms, stddev:    93.17ms, sum:  58.1sec, count: 400
+
+After 500 queries with 15 workers:
+Interval query rate: 122.59 queries/sec	Overall query rate: 105.27 queries/sec
+TimescaleDB trucks with high load:
+min:    52.71ms, med:   129.03ms, mean:   140.48ms, max:  670.88ms, stddev:    84.61ms, sum:  70.2sec, count: 500
+all queries                      :
+min:    52.71ms, med:   129.03ms, mean:   140.48ms, max:  670.88ms, stddev:    84.61ms, sum:  70.2sec, count: 500
+
+After 600 queries with 15 workers:
+Interval query rate: 121.67 queries/sec	Overall query rate: 107.69 queries/sec
+TimescaleDB trucks with high load:
+min:    52.71ms, med:   128.68ms, mean:   137.59ms, max:  670.88ms, stddev:    78.21ms, sum:  82.6sec, count: 600
+all queries                      :
+min:    52.71ms, med:   128.68ms, mean:   137.59ms, max:  670.88ms, stddev:    78.21ms, sum:  82.6sec, count: 600
+
+After 700 queries with 15 workers:
+Interval query rate: 122.39 queries/sec	Overall query rate: 109.57 queries/sec
+TimescaleDB trucks with high load:
+min:    52.71ms, med:   128.62ms, mean:   135.44ms, max:  670.88ms, stddev:    73.36ms, sum:  94.8sec, count: 700
+all queries                      :
+min:    52.71ms, med:   128.62ms, mean:   135.44ms, max:  670.88ms, stddev:    73.36ms, sum:  94.8sec, count: 700
+
+After 800 queries with 15 workers:
+Interval query rate: 123.15 queries/sec	Overall query rate: 111.10 queries/sec
+TimescaleDB trucks with high load:
+min:    52.71ms, med:   128.22ms, mean:   133.88ms, max:  670.88ms, stddev:    69.48ms, sum: 107.1sec, count: 800
+all queries                      :
+min:    52.71ms, med:   128.22ms, mean:   133.88ms, max:  670.88ms, stddev:    69.48ms, sum: 107.1sec, count: 800
+
+After 900 queries with 15 workers:
+Interval query rate: 120.03 queries/sec	Overall query rate: 112.03 queries/sec
+TimescaleDB trucks with high load:
+min:    36.79ms, med:   128.29ms, mean:   132.82ms, max:  670.88ms, stddev:    66.38ms, sum: 119.5sec, count: 900
+all queries                      :
+min:    36.79ms, med:   128.29ms, mean:   132.82ms, max:  670.88ms, stddev:    66.38ms, sum: 119.5sec, count: 900
+
+After 1000 queries with 15 workers:
+Interval query rate: 129.81 queries/sec	Overall query rate: 113.58 queries/sec
+TimescaleDB trucks with high load:
+min:    36.79ms, med:   127.68ms, mean:   131.67ms, max:  670.88ms, stddev:    63.69ms, sum: 131.7sec, count: 1000
+all queries                      :
+min:    36.79ms, med:   127.68ms, mean:   131.67ms, max:  670.88ms, stddev:    63.69ms, sum: 131.7sec, count: 1000
+
+Run complete after 1000 queries with 15 workers (Overall query rate 113.27 queries/sec):
+TimescaleDB trucks with high load:
+min:    36.79ms, med:   127.68ms, mean:   131.67ms, max:  670.88ms, stddev:    63.69ms, sum: 131.7sec, count: 1000
+all queries                      :
+min:    36.79ms, med:   127.68ms, mean:   131.67ms, max:  670.88ms, stddev:    63.69ms, sum: 131.7sec, count: 1000
+wall clock time: 8.853063sec

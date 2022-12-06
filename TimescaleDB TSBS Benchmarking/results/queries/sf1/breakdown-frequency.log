@@ -1,0 +1,76 @@
+After 100 queries with 15 workers:
+Interval query rate: 1.68 queries/sec	Overall query rate: 1.68 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5871.62ms, med:  8864.25ms, mean:  8310.74ms, max: 9172.48ms, stddev:  1165.92ms, sum: 831.1sec, count: 100
+all queries                                    :
+min:  5871.62ms, med:  8864.25ms, mean:  8310.74ms, max: 9172.48ms, stddev:  1165.92ms, sum: 831.1sec, count: 100
+
+After 200 queries with 15 workers:
+Interval query rate: 1.80 queries/sec	Overall query rate: 1.74 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5858.56ms, med:  8780.29ms, mean:  8259.12ms, max: 9231.36ms, stddev:  1148.13ms, sum: 1651.8sec, count: 200
+all queries                                    :
+min:  5858.56ms, med:  8780.29ms, mean:  8259.12ms, max: 9231.36ms, stddev:  1148.13ms, sum: 1651.8sec, count: 200
+
+After 300 queries with 15 workers:
+Interval query rate: 1.86 queries/sec	Overall query rate: 1.78 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5822.21ms, med:  8780.29ms, mean:  8241.13ms, max: 9231.36ms, stddev:  1147.28ms, sum: 2472.3sec, count: 300
+all queries                                    :
+min:  5822.21ms, med:  8780.29ms, mean:  8241.13ms, max: 9231.36ms, stddev:  1147.28ms, sum: 2472.3sec, count: 300
+
+After 400 queries with 15 workers:
+Interval query rate: 1.82 queries/sec	Overall query rate: 1.79 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5822.21ms, med:  8788.48ms, mean:  8256.71ms, max: 9427.97ms, stddev:  1156.87ms, sum: 3302.7sec, count: 400
+all queries                                    :
+min:  5822.21ms, med:  8788.48ms, mean:  8256.71ms, max: 9427.97ms, stddev:  1156.87ms, sum: 3302.7sec, count: 400
+
+After 500 queries with 15 workers:
+Interval query rate: 1.79 queries/sec	Overall query rate: 1.79 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5781.76ms, med:  8780.80ms, mean:  8240.23ms, max: 9427.97ms, stddev:  1163.81ms, sum: 4120.1sec, count: 500
+all queries                                    :
+min:  5781.76ms, med:  8780.80ms, mean:  8240.23ms, max: 9427.97ms, stddev:  1163.81ms, sum: 4120.1sec, count: 500
+
+After 600 queries with 15 workers:
+Interval query rate: 1.86 queries/sec	Overall query rate: 1.80 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5781.76ms, med:  8800.25ms, mean:  8255.95ms, max: 9427.97ms, stddev:  1171.31ms, sum: 4953.6sec, count: 600
+all queries                                    :
+min:  5781.76ms, med:  8800.25ms, mean:  8255.95ms, max: 9427.97ms, stddev:  1171.31ms, sum: 4953.6sec, count: 600
+
+After 700 queries with 15 workers:
+Interval query rate: 1.83 queries/sec	Overall query rate: 1.80 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5781.76ms, med:  8791.55ms, mean:  8247.29ms, max: 9427.97ms, stddev:  1165.41ms, sum: 5773.1sec, count: 700
+all queries                                    :
+min:  5781.76ms, med:  8791.55ms, mean:  8247.29ms, max: 9427.97ms, stddev:  1165.41ms, sum: 5773.1sec, count: 700
+
+After 800 queries with 15 workers:
+Interval query rate: 1.78 queries/sec	Overall query rate: 1.80 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5781.76ms, med:  8800.25ms, mean:  8249.59ms, max: 9427.97ms, stddev:  1167.18ms, sum: 6599.7sec, count: 800
+all queries                                    :
+min:  5781.76ms, med:  8800.25ms, mean:  8249.59ms, max: 9427.97ms, stddev:  1167.18ms, sum: 6599.7sec, count: 800
+
+After 900 queries with 15 workers:
+Interval query rate: 1.79 queries/sec	Overall query rate: 1.80 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  5781.76ms, med:  8804.86ms, mean:  8249.57ms, max: 9427.97ms, stddev:  1167.95ms, sum: 7424.6sec, count: 900
+all queries                                    :
+min:  5781.76ms, med:  8804.86ms, mean:  8249.57ms, max: 9427.97ms, stddev:  1167.95ms, sum: 7424.6sec, count: 900
+
+After 1000 queries with 15 workers:
+Interval query rate: 1.98 queries/sec	Overall query rate: 1.82 queries/sec
+TimescaleDB truck breakdown frequency per model:
+min:  4165.76ms, med:  8805.38ms, mean:  8237.24ms, max: 9427.97ms, stddev:  1180.44ms, sum: 8237.2sec, count: 1000
+all queries                                    :
+min:  4165.76ms, med:  8805.38ms, mean:  8237.24ms, max: 9427.97ms, stddev:  1180.44ms, sum: 8237.2sec, count: 1000
+
+Run complete after 1000 queries with 15 workers (Overall query rate 1.82 queries/sec):
+TimescaleDB truck breakdown frequency per model:
+min:  4165.76ms, med:  8805.38ms, mean:  8237.24ms, max: 9427.97ms, stddev:  1180.44ms, sum: 8237.2sec, count: 1000
+all queries                                    :
+min:  4165.76ms, med:  8805.38ms, mean:  8237.24ms, max: 9427.97ms, stddev:  1180.44ms, sum: 8237.2sec, count: 1000
+wall clock time: 550.346114sec
