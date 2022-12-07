@@ -7,7 +7,7 @@ A. TimescaleDB vs QuestDB (TSBS Benchmarking)
 
   - Run 1st SF: Done 
   - Run 2nd SF: Done 
-  - Run 3rd SF: TimescaleDB: Running, QuestDB: Done
+  - Run 3rd SF: TimescaleDB: Done, QuestDB: Done
   - Run 4th SF: TimescaleDB: Running, QuestDB: Done
 
 B. Timeseries DB vs Relational DB 
