@@ -29,4 +29,3 @@ time,per. metric/s,metric total,overall metric/s,per. row/s,row total,overall ro
 Summary:
 loaded 90756802 metrics in 268.740sec with 100 workers (mean rate 337712.80 metrics/sec)
 loaded 18150834 rows in 268.740sec with 100 workers (mean rate 67540.60 rows/sec)
-
