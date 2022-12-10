@@ -1,0 +1,76 @@
+After 100 queries with 15 workers:
+Interval query rate: 6.58 queries/sec	Overall query rate: 6.58 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   228.86ms, med:   255.17ms, mean:   301.93ms, max:  750.30ms, stddev:    87.57ms, sum:  30.2sec, count: 100
+all queries                                           :
+min:   228.86ms, med:   255.17ms, mean:   301.93ms, max:  750.30ms, stddev:    87.57ms, sum:  30.2sec, count: 100
+
+After 200 queries with 15 workers:
+Interval query rate: 7.07 queries/sec	Overall query rate: 6.82 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   228.86ms, med:   253.37ms, mean:   368.75ms, max: 15426.56ms, stddev:  1069.94ms, sum:  73.7sec, count: 200
+all queries                                           :
+min:   228.86ms, med:   253.37ms, mean:   368.75ms, max: 15426.56ms, stddev:  1069.94ms, sum:  73.7sec, count: 200
+
+After 300 queries with 15 workers:
+Interval query rate: 7.01 queries/sec	Overall query rate: 6.88 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   252.63ms, mean:   340.16ms, max: 15426.56ms, stddev:   875.06ms, sum: 102.0sec, count: 300
+all queries                                           :
+min:   227.94ms, med:   252.63ms, mean:   340.16ms, max: 15426.56ms, stddev:   875.06ms, sum: 102.0sec, count: 300
+
+After 400 queries with 15 workers:
+Interval query rate: 6.93 queries/sec	Overall query rate: 6.89 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   251.88ms, mean:   327.92ms, max: 15426.56ms, stddev:   758.75ms, sum: 131.2sec, count: 400
+all queries                                           :
+min:   227.94ms, med:   251.88ms, mean:   327.92ms, max: 15426.56ms, stddev:   758.75ms, sum: 131.2sec, count: 400
+
+After 500 queries with 15 workers:
+Interval query rate: 6.89 queries/sec	Overall query rate: 6.89 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   255.25ms, mean:   319.90ms, max: 15426.56ms, stddev:   679.16ms, sum: 160.0sec, count: 500
+all queries                                           :
+min:   227.94ms, med:   255.25ms, mean:   319.90ms, max: 15426.56ms, stddev:   679.16ms, sum: 160.0sec, count: 500
+
+After 600 queries with 15 workers:
+Interval query rate: 6.78 queries/sec	Overall query rate: 6.87 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   259.05ms, mean:   316.00ms, max: 15426.56ms, stddev:   620.49ms, sum: 189.6sec, count: 600
+all queries                                           :
+min:   227.94ms, med:   259.05ms, mean:   316.00ms, max: 15426.56ms, stddev:   620.49ms, sum: 189.6sec, count: 600
+
+After 700 queries with 15 workers:
+Interval query rate: 6.86 queries/sec	Overall query rate: 6.87 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   259.96ms, mean:   312.53ms, max: 15426.56ms, stddev:   574.91ms, sum: 218.8sec, count: 700
+all queries                                           :
+min:   227.94ms, med:   259.96ms, mean:   312.53ms, max: 15426.56ms, stddev:   574.91ms, sum: 218.8sec, count: 700
+
+After 800 queries with 15 workers:
+Interval query rate: 6.87 queries/sec	Overall query rate: 6.87 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   259.50ms, mean:   309.56ms, max: 15426.56ms, stddev:   538.13ms, sum: 247.6sec, count: 800
+all queries                                           :
+min:   227.94ms, med:   259.50ms, mean:   309.56ms, max: 15426.56ms, stddev:   538.13ms, sum: 247.6sec, count: 800
+
+After 900 queries with 15 workers:
+Interval query rate: 6.88 queries/sec	Overall query rate: 6.87 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   261.63ms, mean:   437.17ms, max: 116715.52ms, stddev:  3911.11ms, sum: 393.5sec, count: 900
+all queries                                           :
+min:   227.94ms, med:   261.63ms, mean:   437.17ms, max: 116715.52ms, stddev:  3911.11ms, sum: 393.5sec, count: 900
+
+After 1000 queries with 15 workers:
+Interval query rate: 6.74 queries/sec	Overall query rate: 6.86 queries/sec
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   262.69ms, mean:  2171.38ms, max: 145489.92ms, stddev: 16051.52ms, sum: 2171.4sec, count: 1000
+all queries                                           :
+min:   227.94ms, med:   262.69ms, mean:  2171.38ms, max: 145489.92ms, stddev: 16051.52ms, sum: 2171.4sec, count: 1000
+
+Run complete after 1000 queries with 15 workers (Overall query rate 6.86 queries/sec):
+QuestDB max cpu over last 5 min-intervals (random end):
+min:   227.94ms, med:   262.69ms, mean:  2171.38ms, max: 145489.92ms, stddev: 16051.52ms, sum: 2171.4sec, count: 1000
+all queries                                           :
+min:   227.94ms, med:   262.69ms, mean:  2171.38ms, max: 145489.92ms, stddev: 16051.52ms, sum: 2171.4sec, count: 1000
+wall clock time: 145.960673sec
